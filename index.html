@@ -151,8 +151,8 @@
     <div class="container is-max-desktop">
       <div class="has-text-centered">
         <!-- TODO: Replace with your teaser image or video -->
-        <figure class="image is-16by9">
-          <img src="static/images/carousel1.jpg" alt="Teaser - Real-world deformable testbed cutting" loading="lazy"/>
+        <figure class="image">
+          <img src="static/images/residual_policy_cut/gif_448206.gif" alt="Teaser - Real-world deformable testbed cutting" loading="lazy"/>
         </figure>
         <!-- TODO: Replace with teaser description -->
         <h2 class="subtitle has-text-centered has-margin-top-2">
@@ -167,9 +167,11 @@
     <div class="container is-max-desktop">
       <div class="has-text-centered">
         <!-- TODO: Replace with your chicken shoulder cutting image or video -->
-        <figure class="image is-16by9">
-          <img src="static/images/carousel2.jpg" alt="Chicken shoulder cutting" loading="lazy"/>
-        </figure>
+        <div style="display: flex; justify-content: center;">
+          <figure class="image" style="max-width: 500px;">
+            <img src="static/images/chicken_residual_policy/gif_366408.gif" alt="Chicken shoulder cutting" loading="lazy"/>
+          </figure>
+        </div>
         <!-- TODO: Replace with description -->
         <h2 class="subtitle has-text-centered has-margin-top-2">
           Chicken shoulder cutting
@@ -204,11 +206,11 @@
           <div class="content">
             <!-- TODO: Replace with description of contribution 1 -->
             <p>
-              A custom-built open-source cutting simulator that supports fracturing and coupling of multiple deformable materials, as well as modeling of cutting force. Our simulator can be used to train the reactive cutting policy with Reinforcement Learning (RL).
+              <strong>custom-built open-source cutting simulator</strong> that supports fracturing and coupling of multiple deformable materials, as well as modeling of cutting force. <span style="color: #3273dc;">Our simulator can be used to train the reactive cutting policy with Reinforcement Learning (RL).</span>
             </p>
             <!-- TODO: Add contribution 1 image -->
-            <figure class="image is-16by9 has-margin-top-2">
-              <img src="static/images/carousel2.jpg" alt="Contribution 1 - Custom Simulator" loading="lazy"/>
+            <figure class="image has-margin-top-2">
+              <img src="static/images/simulation/RP1_gif.gif" alt="Contribution 1 - Custom Simulator" loading="lazy"/>
             </figure>
           </div>
         </div>
@@ -225,11 +227,11 @@
           <div class="content">
             <!-- TODO: Replace with description of contribution 2 -->
             <p>
-              Design and implementation of a simplified reusable physical testbed for multi-material cutting, modeled after the chicken shoulder. Our testbed enables rigorous study and repeatable cutting experimentation in the real-world.
+              Design and implementation of a <strong>simplified reusable physical testbed for multi-material cutting</strong>, modeled after the chicken shoulder. <span style="color: #3273dc;">Our testbed enables rigorous study and repeatable cutting experimentation in the real-world.</span>
             </p>
             <!-- TODO: Add contribution 2 image -->
-            <figure class="image is-16by9 has-margin-top-2">
-              <img src="static/images/carousel3.jpg" alt="Contribution 2 - Physical Testbed" loading="lazy"/>
+            <figure class="image has-margin-top-2">
+              <img src="static/images/real_model_crafting.png" alt="Contribution 2 - Physical Testbed" loading="lazy"/>
             </figure>
           </div>
         </div>
@@ -246,11 +248,11 @@
           <div class="content">
             <!-- TODO: Replace with description of contribution 3 -->
             <p>
-              Design and training of a dynamically adaptive 6 DoF cutting policy via RL-based residual policy training. It transfers zero-shot to both our physical testbed and real chicken shoulders.
+              Design and training of <strong>dynamically adaptive 6 DoF cutting policy</strong> via RL-based residual policy training. Our policy can adapt to different cutting scenarios and materials in real-time. <span style="color: #3273dc;">It transfers zero-shot to both our physical testbed and real chicken shoulders.</span>
             </p>
             <!-- TODO: Add contribution 3 image -->
-            <figure class="image is-16by9 has-margin-top-2">
-              <img src="static/images/carousel4.jpg" alt="Contribution 3 - Adaptive Cutting Policy" loading="lazy"/>
+            <figure class="image has-margin-top-2">
+              <img src="static/images/residual_policy.png" alt="Contribution 3 - Adaptive Cutting Policy" loading="lazy"/>
             </figure>
           </div>
         </div>
@@ -271,42 +273,42 @@
           <!-- Column 1: Nominal -->
           <div class="column">
             <h4 class="title is-5 has-text-centered has-margin-bottom-3" style="font-style: italic;">Nominal</h4>
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel1.jpg" alt="Nominal result 1" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/simulation/NT1_gif.gif" alt="Nominal result 1" loading="lazy"/>
             </figure>
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel2.jpg" alt="Nominal result 2" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/simulation/NT2_gif.gif" alt="Nominal result 2" loading="lazy"/>
             </figure>
-            <figure class="image is-square">
-              <img src="static/images/carousel3.jpg" alt="Nominal result 3" loading="lazy"/>
+            <figure class="image">
+              <img src="static/images/simulation/NT3_gif.gif" alt="Nominal result 3" loading="lazy"/>
             </figure>
           </div>
           
           <!-- Column 2: Adaptive w/o Force -->
           <div class="column">
             <h4 class="title is-5 has-text-centered has-margin-bottom-3" style="font-style: italic;">Adaptive w/o Force</h4>
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel4.jpg" alt="Adaptive w/o force result 1" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/simulation/RP_wo_f1_gif.gif" alt="Adaptive w/o force result 1" loading="lazy"/>
             </figure>
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel1.jpg" alt="Adaptive w/o force result 2" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/simulation/RP_wo_f4_gif.gif" alt="Adaptive w/o force result 2" loading="lazy"/>
             </figure>
-            <figure class="image is-square">
-              <img src="static/images/carousel2.jpg" alt="Adaptive w/o force result 3" loading="lazy"/>
+            <figure class="image">
+              <img src="static/images/simulation/RP_wo_f3_gif.gif" alt="Adaptive w/o force result 3" loading="lazy"/>
             </figure>
           </div>
           
           <!-- Column 3: Adaptive (Ours) -->
           <div class="column">
             <h4 class="title is-5 has-text-centered has-margin-bottom-3" style="font-style: italic;">Adaptive (Ours)</h4>
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel3.jpg" alt="Adaptive ours result 1" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/simulation/RP1_gif.gif" alt="Adaptive ours result 1" loading="lazy"/>
             </figure>
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel4.jpg" alt="Adaptive ours result 2" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/simulation/RP2_gif.gif" alt="Adaptive ours result 2" loading="lazy"/>
             </figure>
-            <figure class="image is-square">
-              <img src="static/images/carousel1.jpg" alt="Adaptive ours result 3" loading="lazy"/>
+            <figure class="image">
+              <img src="static/images/simulation/RP3_gif.gif" alt="Adaptive ours result 3" loading="lazy"/>
             </figure>
           </div>
         </div>
@@ -316,7 +318,7 @@
 
   <!-- Real-world Results -->
   <section class="section">
-    <div class="container is-max-desktop">
+    <div class="container" style="max-width: 80%;">
       <div class="has-text-centered has-margin-bottom-5">
         <h3 class="title is-4">Real-world Model Cutting</h3>
         
@@ -325,33 +327,33 @@
           <!-- Column 1: Nominal -->
           <div class="column">
             <h4 class="title is-5 has-text-centered has-margin-bottom-3" style="font-style: italic;">Nominal</h4>
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel2.jpg" alt="Real-world nominal result 1" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/nominal_trajectory_only/gif_450231.gif" alt="Real-world nominal result 1" loading="lazy"/>
             </figure>
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel3.jpg" alt="Real-world nominal result 2" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/nominal_trajectory_only/gif_622557.gif" alt="Real-world nominal result 2" loading="lazy"/>
             </figure>
           </div>
           
           <!-- Column 2: Adaptive w/o Force -->
           <div class="column">
             <h4 class="title is-5 has-text-centered has-margin-bottom-3" style="font-style: italic;">Adaptive w/o Force</h4>
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel1.jpg" alt="Real-world adaptive w/o force result 1" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/residual_policy_wo_force_obs/gif_621710.gif" alt="Real-world adaptive w/o force result 1" loading="lazy"/>
             </figure>
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel2.jpg" alt="Real-world adaptive w/o force result 2" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/residual_policy_wo_force_obs/gif_621389_adjust_trajectory.gif" alt="Real-world adaptive w/o force result 2" loading="lazy"/>
             </figure>
           </div>
           
           <!-- Column 3: Adaptive (Ours) -->
           <div class="column">
             <h4 class="title is-5 has-text-centered has-margin-bottom-3" style="font-style: italic;">Adaptive (Ours)</h4>
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel4.jpg" alt="Real-world adaptive ours result 1" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/residual_policy_cut/gif_447727.gif" alt="Real-world adaptive ours result 1" loading="lazy"/>
             </figure>
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel1.jpg" alt="Real-world adaptive ours result 2" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/residual_policy_cut/gif_448206.gif" alt="Real-world adaptive ours result 2" loading="lazy"/>
             </figure>
           </div>
         </div>
@@ -370,56 +372,56 @@
           <!-- Column 1: Nominal -->
           <div class="column">
             <h4 class="title is-5 has-text-centered has-margin-bottom-3" style="font-style: italic;">Nominal</h4>
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel1.jpg" alt="Chicken shoulder nominal result 1" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/chicken_nominal_trajectory/gif_103616.gif" alt="Chicken shoulder nominal result 1" loading="lazy"/>
             </figure>
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel2.jpg" alt="Chicken shoulder nominal result 2" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/chicken_nominal_trajectory/gif_104493.gif" alt="Chicken shoulder nominal result 2" loading="lazy"/>
             </figure>
-            <figure class="image is-square">
-              <img src="static/images/carousel3.jpg" alt="Chicken shoulder nominal result 3" loading="lazy"/>
+            <figure class="image">
+              <img src="static/images/chicken_nominal_trajectory/gif_364364.gif" alt="Chicken shoulder nominal result 3" loading="lazy"/>
             </figure>
           </div>
           
           <!-- Column 2: Nominal Results -->
           <div class="column">
             <h4 class="title is-5 has-text-centered has-margin-bottom-3" style="color: #3273dc;">Nominal Results</h4>
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel4.jpg" alt="Chicken shoulder adaptive w/o force result 1" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/103616.jpg" alt="Chicken shoulder adaptive w/o force result 1" loading="lazy"/>
             </figure>
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel1.jpg" alt="Chicken shoulder adaptive w/o force result 2" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/104493.jpg" alt="Chicken shoulder adaptive w/o force result 2" loading="lazy"/>
             </figure>
-            <figure class="image is-square">
-              <img src="static/images/carousel2.jpg" alt="Chicken shoulder adaptive w/o force result 3" loading="lazy"/>
+            <figure class="image">
+              <img src="static/images/364364.jpg" alt="Chicken shoulder adaptive w/o force result 3" loading="lazy"/>
             </figure>
           </div>
           
           <!-- Column 3: Adaptive (Ours) -->
           <div class="column">
             <h4 class="title is-5 has-text-centered has-margin-bottom-3" style="font-style: italic;">Adaptive (Ours)</h4>
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel3.jpg" alt="Chicken shoulder adaptive ours result 1" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/chicken_residual_policy/gif_360079.gif" alt="Chicken shoulder adaptive ours result 1" loading="lazy"/>
             </figure>
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel4.jpg" alt="Chicken shoulder adaptive ours result 2" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/chicken_residual_policy/gif_361786.gif" alt="Chicken shoulder adaptive ours result 2" loading="lazy"/>
             </figure>
-            <figure class="image is-square">
-              <img src="static/images/carousel1.jpg" alt="Chicken shoulder adaptive ours result 3" loading="lazy"/>
+            <figure class="image">
+              <img src="static/images/chicken_residual_policy/gif_365601.gif" alt="Chicken shoulder adaptive ours result 3" loading="lazy"/>
             </figure>
           </div>
           
           <!-- Column 4: Adaptive Results -->
           <div class="column">
             <h4 class="title is-5 has-text-centered has-margin-bottom-3" style="color: #3273dc;">Adaptive Results</h4>
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel2.jpg" alt="Recent cutting method result 1" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/360079.jpg" alt="Recent cutting method result 1" loading="lazy"/>
             </figure>
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel3.jpg" alt="Recent cutting method result 2" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/361786.jpg" alt="Recent cutting method result 2" loading="lazy"/>
             </figure>
-            <figure class="image is-square">
-              <img src="static/images/carousel4.jpg" alt="Recent cutting method result 3" loading="lazy"/>
+            <figure class="image">
+              <img src="static/images/365601.jpg" alt="Recent cutting method result 3" loading="lazy"/>
             </figure>
           </div>
         </div>
@@ -437,36 +439,36 @@
         <div class="columns">
           <!-- Row 1, Column 1 -->
           <div class="column">
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel1.jpg" alt="Comparison result 1" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/roboninja/gif_624868_roboninja_0_01.gif" alt="Comparison result 1" loading="lazy"/>
             </figure>
-            <p class="has-text-centered has-text-weight-semibold">RoboNinja Method</p>
+            <p class="has-text-centered has-text-weight-semibold">The knife first cuts into the left bone. Because RoboNinja can only adjust its trajectory to one direction (left), it keeps cutting into the left bone.</p>
           </div>
           
           <!-- Row 1, Column 2 -->
           <div class="column">
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel2.jpg" alt="Comparison result 2" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/roboninja/gif_625776_roboninja_0_03.gif" alt="Comparison result 2" loading="lazy"/>
             </figure>
-            <p class="has-text-centered has-text-weight-semibold">Our Method</p>
+            <p class="has-text-centered has-text-weight-semibold">RoboNinja relies on knife-bone collision for interactive state estimation, which does crucial damage to non-rigid core in our task.</p>
           </div>
         </div>
         
         <div class="columns">
           <!-- Row 2, Column 1 -->
           <div class="column">
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel3.jpg" alt="Comparison result 3" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/roboninja/624868.jpg" alt="Comparison result 3" loading="lazy"/>
             </figure>
-            <p class="has-text-centered has-text-weight-semibold">RoboNinja - Back View</p>
+            <p class="has-text-centered has-text-weight-semibold">Cutting Result (Back view)</p>
           </div>
           
           <!-- Row 2, Column 2 -->
           <div class="column">
-            <figure class="image is-square has-margin-bottom-3">
-              <img src="static/images/carousel4.jpg" alt="Comparison result 4" loading="lazy"/>
+            <figure class="image has-margin-bottom-3">
+              <img src="static/images/roboninja/625776.jpg" alt="Comparison result 4" loading="lazy"/>
             </figure>
-            <p class="has-text-centered has-text-weight-semibold">Our Method - Back View</p>
+            <p class="has-text-centered has-text-weight-semibold">Cutting Result (Back view)</p>
           </div>
         </div>
       </div>
@@ -521,9 +523,7 @@
         <div class="column is-8">
           <div class="content has-text-centered">
             <p>
-              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-              You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-              Commons Attribution-ShareAlike 4.0 International License</a>.
+              Built with the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>, which extends the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> design. Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA 4.0</a>.
             </p>
           </div>
         </div>
